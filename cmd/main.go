@@ -6,7 +6,7 @@ import (
 )
 
 func main()  {
-	fmt.Println("Willi3")
+	fmt.Println("Example of Max Heap")
 
 	m := &domain.MaxHeap{}
 
@@ -19,5 +19,4 @@ func main()  {
 	m.Insert(23)
 	m.Insert(123)
 	m.Extract()
-	m.Print()
 }
